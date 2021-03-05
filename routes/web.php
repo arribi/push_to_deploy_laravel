@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//CRUD de proyectos
 Route::resource('proyectos', ProyectoController::class);
 
 Auth::routes();
