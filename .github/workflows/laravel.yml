@@ -65,7 +65,7 @@ jobs:
 
           username: ${{ secrets.SSH_USERNAME }}
 
-          script: |
+          script: 
 
             cd /var/www/html/
 
